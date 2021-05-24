@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <title>Ramayana - HTML5 Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!--
+Ramayana CSS Template
+https://templatemo.com/tm-529-ramayana
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+    <style>
+      body {
+        background: rgb(224, 224, 224);
+      }
+
+      #header {
+      background: rgb(224, 224, 224);
+     }
+
+     #sidebar {
+       background-color: black;
+     }
+
+     .featured-posts {
+       background-color: white;
+     }     
+    </style>
+  </head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+      <!-- Main -->
+        <div id="main">
+          <div class="inner">
+
+            <!-- Header -->
+            <header id="header">
+              <div class="logo">
+                <a href="index.html" style="color: black;">DECA</a>
+              </div>
+            </header>
+
+            <!-- Page Heading -->
+            <!-- <div class="page-heading">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h1>Shortcodes Page</h1>
+                    <p><strong>Ramayana</strong> is free Bootstrap 4 CSS template from templatemo website. You can feel free to use it. Donec mattis tincidunt ipsum vel efficitur. Aliquam aliquam interdum rhoncus. Nam nec condimentum dolor, et pharetra nisi. In feugiat felis nec erat eleifend condimentum. Aliquam egestas convallis eros sed gravida. Curabitur consequat sit amet neque ac ornare.</p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            
+            <!-- Tables -->
+            <section class="tables">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="section-heading">
+                      <h1>Deca Store</h1>
+                    </div>
+                    <div class="default-table">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Item</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><h4>Infused Honey</h4><img src="assets/images/decaImgs/decaStore/store1.jpg"></td>
+                            <td>Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet.
+                              <br>
+                              <h6>Ingredients: </h6>
+                              <p>Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>
+                            </td>
+                            <td>$20.50
+                              <br>
+                              <input id="itemOneValue"type="number" style="background-color: grey; color: black;" min="1" max="100" placeholder="0">
+                              <br>
+                              <br>
+                              <button id="itemOne" value="20.50"type="submit" onclick="addToCart(itemOne)" style="background-color: grey; color: white; border-radius: 2px; border-color: black;">Add to Cart</button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><h4>Product no 2</h4><img src="assets/images/decaImgs/decaStore/store2.jpg"></td>
+                            <td>Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet
+                              <br>
+                              <h6>Ingredients: </h6>
+                              <p>Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>
+                            </td>
+                            <td>$10.50
+                            <br>
+                            <input id="itemTwoValue" type="number" style="background-color: grey; color: black;" min="1" max="100" placeholder="0">
+                              <br>
+                              <br>
+                              <button id="itemTwo" value="10.50" type="submit" onclick="addToCart(itemTwo)" style="background-color: grey; color: white; border-radius: 2px; border-color: black;">Add to Cart</button>
+                            </td> 
+                          </tr>
+                          <tr>
+                            <td><h4>Product no 3</h4><img src="assets/images/decaImgs/decaStore/store3.jpg"></td>
+                            <td>Lorem ipsum dolor sit amet
+                              <br>
+                              <h6>Ingredients: </h6>
+                              <p>Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>
+                            </td>
+                            <td>$9.50
+                            <input id="itemThreeValue"type="number" style="background-color: grey; color: black;" min="1" max="100" placeholder="0">
+                              <br>
+                              <br>
+                              <button id="itemThree"type="submit" value="9.50" onclick="addToCart(itemThree)" style="background-color: grey; color: white; border-radius: 2px; border-color: black;">Add to Cart</button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><h4>Product no 4</h4><img src="assets/images/decaImgs/decaStore/store4.jpg"></td>
+                            <td>Lorem ipsum dolor sit amet
+                              <br>
+                              <h6>Ingredients: </h6>
+                              <p>Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>
+                            </td>
+                            <td>$20.50
+                            <input id="itemFourValue" type="number" style="background-color: grey; color: black;" min="1" max="100" placeholder="0">
+                              <br>
+                              <br>
+                              <button id="itemFour"type="submit" value="20.50" onclick="addToCart(itemFour)" style="background-color: grey; color: white; border-radius: 2px; border-color: black;">Add to Cart</button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><h4>Community Growth</h4><img src="assets/images/decaImgs/decaStore/storeDonation.jpeg"></td>
+                            <td>Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet
+                              <br>
+                              <p>Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>
+                            </td>
+                            <td>Donation
+                            <input id="donationValue" type="number" style="background-color: grey; color: black;" min="1" max="100000" placeholder="0" style="color: white;">
+                              <br>
+                              <br>
+                              <button id="donation" type="submit" onclick="addToCart(donation)" style="background-color: grey; color: white; border-radius: 2px; border-color: black;">Add to Cart</button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button type="submit" style="border-color: rgb(74, 72, 72); color: black;"><a href="checkout.html" style="color: black;">Go to Cart</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Forms -->
+            <!-- <section class="forms">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="section-heading">
+                      <h2>Forms</h2>
+                    </div>
+                    <form id="contact" action="" method="post">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <fieldset>
+                            <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                          </fieldset>
+                        </div>
+                        <div class="col-md-6">
+                          <fieldset>
+                            <input name="email" type="text" class="form-control" id="email" placeholder="Your email..." required="">
+                          </fieldset>
+                        </div>
+                        <div class="col-md-12">
+                          <select name="category" id="category">
+                            <option value="categories" selected>Select Category</option>
+                            <option value="Featured">General</option>
+                            <option value="Newest">Specific</option>
+                            <option value="Low Price">Technical</option>
+                            <option value="High Price">Application</option>
+                          </select>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                          <div class="radio-item">
+                            <input name="demo-small" type="checkbox" id="demo-priority-small" value="small">
+                            <label for="demo-priority-small">Small</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                          <div class="radio-item">
+                            <input name="demo-medium" type="checkbox" id="demo-priority-medium" value="medium">
+                            <label for="demo-priority-medium">Medium</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                          <div class="radio-item">
+                            <input name="demo-large" type="checkbox" id="demo-priority-large" value="large" >
+                            <label for="demo-priority-large">Large</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                          <div class="circle-item">
+                            <input name="demo-priority" type="radio" id="demo-small" value="16-20" checked>
+                            <label for="demo-small">Age: 16 - 20</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                          <div class="circle-item">
+                            <input name="demo-priority" type="radio" id="demo-medium" value="21-30">
+                            <label for="demo-medium">Age: 21 - 30</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                          <div class="circle-item">
+                            <input name="demo-priority" type="radio" id="demo-old" value="30+">
+                            <label for="demo-old">Age: 30+</label>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                          <button type="submit" id="form-submit" class="button">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section> -->
+
+
+            <!-- Tables -->
+            <!-- <section class="buttons">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="section-heading">
+                      <h2>Buttons</h2>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="filled-rectangle-button">
+                          <a href="#">Filled Button</a>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="border-rectangle-button">
+                          <a href="#">Border Button</a>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="filled-radius-button">
+                          <a href="#">Filled Button</a>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="border-radius-button">
+                          <a href="#">Border Button</a>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="filled-rounded-button">
+                          <a href="#">Filled Button</a>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="border-rounded-button">
+                          <a href="#">Border Button</a>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="filled-icon-button">
+                          <a href="#"><i class="fa fa-check"></i>Filled Button</a>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="border-icon-button">
+                          <a href="#"><i class="fa fa-check"></i>Border Button</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="filled-rectangle-button">
+                          <a href="#">Filled Button</a>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="border-rectangle-button">
+                          <a href="#">Border Button</a>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="filled-rounded-button">
+                          <a href="#">Filled Button</a>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="border-rounded-button">
+                          <a href="#">Border Button</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section> -->
+
+          </div>
+        </div>
+
+      <!-- Sidebar -->
+        <div id="sidebar">
+
+          <div class="inner">
+
+            <!-- Search Box -->
+            <!-- <section id="search" class="alt">
+              <form method="get" action="#">
+                <input type="text" name="search" id="search" placeholder="Search..." />
+              </form>
+            </section> -->
+              
+            <!-- Menu -->
+            <nav id="menu">
+              <ul>
+                <li><a href="index.html">DECA</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="store.html">Store</a></li>
+            </nav>
+
+            <!-- Featured Posts -->
+            <div class="featured-posts">
+              <div class="heading">
+                <h2 style="color: black;">DECA in Action</h2>
+              </div>
+              <div class="owl-carousel owl-theme">
+                <a href="#">
+                  <div class="featured-item">
+                    <img src="assets/images/decaImgs/decaFeatured/decaAction1.jpeg" alt="featured one">
+                    <p style="color: black">Deca empowers the community!</p>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="featured-item">
+                    <img src="assets/images/decaImgs/decaFeatured/decaAction2.jpg" alt="featured two">
+                    <p style="color: black;">Deca's growth!</p>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="featured-item">
+                    <img src="assets/images/decaImgs/decaFeatured/decaAction3.jpg" alt="featured three">   
+                    <p style="color: black;">Built by the community for the community!</p>                
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Footer -->
+            <footer id="footer">
+              <!-- <p class="copyright">Copyright &copy; 2019 Company Name
+              <br>Designed by <a rel="nofollow" href="https://www.facebook.com/templatemo">Template Mo</a></p> -->
+            </footer> 
+            
+          </div>
+        </div>
+
+    </div>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/transition.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/custom.js"></script>
+    
+    <script src="assets/js/main/app.js"></script>
+</body>
+
+
+  </body>
+
+</html>
